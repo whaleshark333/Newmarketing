@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name - Marketing Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1>YourName</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="theme-toggle">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2 data-aos="fade-up">Marketing That Drives Results</h2>
+    <p data-aos="fade-up" data-aos-delay="200">I help brands grow through strategic marketing and creative campaigns.</p>
+    <a href="#contact" class="btn" data-aos="fade-up" data-aos-delay="400">Get in Touch</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2 data-aos="fade-right">About Me</h2>
+    <p data-aos="fade-left">I'm a passionate marketing strategist with a focus on digital campaigns, branding, and customer engagement. I love turning ideas into impact.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2 data-aos="fade-right">Services</h2>
+    <div class="cards">
+      <div class="card" data-aos="fade-up">
+        <h3>Brand Strategy</h3>
+        <p>Crafting unique brand stories that resonate.</p>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-delay="100">
+        <h3>Social Media Marketing</h3>
+        <p>Building connections and driving growth across platforms.</p>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-delay="200">
+        <h3>Content Creation</h3>
+        <p>Engaging content that drives results and builds loyalty.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <h2 data-aos="fade-right">Portfolio</h2>
+    <div class="grid">
+      <div class="grid-item" data-aos="zoom-in"><img src="https://via.placeholder.com/300" alt="Project 1" /></div>
+      <div class="grid-item" data-aos="zoom-in" data-aos-delay="100"><img src="https://via.placeholder.com/300" alt="Project 2" /></div>
+      <div class="grid-item" data-aos="zoom-in" data-aos-delay="200"><img src="https://via.placeholder.com/300" alt="Project 3" /></div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <h2 data-aos="fade-right">Testimonials</h2>
+    <div class="testimonial" data-aos="fade-up">
+      <p>"Your marketing strategies transformed our brand! Highly recommended."</p>
+      <h4>- Client A</h4>
+    </div>
+    <div class="testimonial" data-aos="fade-up" data-aos-delay="100">
+      <p>"Amazing creativity and attention to detail. Loved working with you!"</p>
+      <h4>- Client B</h4>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="blog">
+    <h2 data-aos="fade-right">Latest Blog Posts</h2>
+    <div class="blog-cards">
+      <div class="blog-card" data-aos="fade-up">
+        <h3><a href="blog.html">How to Build a Brand from Scratch</a></h3>
+        <p>A guide to creating a strong and memorable brand identity.</p>
+      </div>
+      <div class="blog-card" data-aos="fade-up" data-aos-delay="100">
+        <h3><a href="blog.html">The Power of Storytelling in Marketing</a></h3>
+        <p>Learn how storytelling can elevate your brand message.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2 data-aos="fade-right">Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" name="user_name" placeholder="Your Name" required />
+      <input type="email" name="user_email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 YourName. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#">LinkedIn</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+</body>
+</html>
